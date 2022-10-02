@@ -2,7 +2,10 @@
   box-sizing: border-box;
 }
 body {
+  background-color: cornsilk;
   margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
 }
 .column-container {
   display: flex;
@@ -22,6 +25,7 @@ body {
 .container {
   width: 100%;
   height: calc(100vh - 40px);
+  color: sandybrown;
 }
 .container.left {
   margin-top: 25px;
@@ -35,8 +39,10 @@ body {
 .column-header {
   font-size: 25px;
   position: relative;
-  background-color: white;
+  background-color: cornsilk;
   top: 8px;
+  color: sandybrown;
+  font-size: 1.8rem;
 }
 #big_coffee {
   user-select: none;
@@ -58,6 +64,7 @@ body {
   overflow: auto;
   border: 2px black solid;
   border-radius: 5px;
+  font-size: 1.6rem;
 }
 
 .producer {
